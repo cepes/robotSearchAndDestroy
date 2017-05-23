@@ -52,3 +52,41 @@ d’autres matériels que vous pourriez vous procurer.
 Il est aussi possible de déporter le traitement des données en connectant le Raspberry à une machine
 disposant d’un Cluster Hadoop, afin de déporter le traitement des images. Cette solution devra être
 étudiée et mise en place si elle est jugée pertinente et si cela améliore les performances du robot.
+
+## Projet SearchAndDestroy ##
+
+### Analyse fonctionnelle ###
+
+Dans le Schéma suivant:
+- FP correspond à fonction principale.
+- FS correspond à fonction secondaire.
+- FC correspond à fonction contrainte.
+![Image_Analyse_Fonctionnelle](https://raw.githubusercontent.com/cepes/robotSearchAndDestroy/master/analyse%20fonctionnelle.PNG)
+
+| Fonction  | Rôle | Critères | Flexibilité |
+| ------------- | ------------- | ------------- | ------------- |
+| FP1 (fonction principale 1) | Doit permettre de ramasser des objets cylindrique | Nombre d'essai et erreur par prise | ------------- |
+| FP2 (fonction principale 2) | Doit pouvoir se déplacer | Avancer / Reculer / Gauche / Droite | Angle de Rotation |
+| FP3 (fonction principale 3) | Doit pouvoir identifier des objets | Taux de reconnaissance des canettes / Accident contre un obstacle | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
+| FS1 (fonction secondaire 1) | Doit pouvoir se déplacer en faisant de la lumière ou un son | ------------- | ------------- |
+| FS2 (fonction secondaire 2) | Doit pouvoir être paramétrable par l’opérateur | ------------- | ------------- |
+| FS3 (fonction secondaire 3) | Doit pouvoir se situer pour retourner au dépôt en évitant les obstacles | ------------- | ------------- |
+| FS4 (fonction secondaire 4) | Doit pouvoir se situer pour rester dans la zone en évitant les obstacles | ------------- | ------------- |
+| FS5 (fonction secondaire 5) | Doit savoir quand il est chargé | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
+| FC1 (contrainte 1) | Doit évoluer dans une zone de 20cm² (4 x 5m) | ------------- | ------------- |
+| FC2 (contrainte 2) | Doit être utilisé de jour | ------------- | ------------- |
+| FC3 (contrainte 3) | Doit être autonome | ------------- | ------------- |
+| FC4 (contrainte 4) | Doit esquiver des obstacles | ------------- | ------------- |
+| FC5 (contrainte 5) | Doit avoir une zone de dépôt (40 x 40 cm) | ------------- | ------------- |
+| FC6 (contrainte 6) | Ne doit pas mettre en danger l’utilisateur | ------------- | ------------- |
+| FC7 (contrainte 7) | Resistance aux chocs | ------------- | ------------- |
+| FC8 (contrainte 8) | Conforme aux normes CE | ------------- | ------------- |
+| FC9 (contrainte 9) | Resistance a l'eau | ------------- | Resistance aux eclaboussure |
+| FC10 (contrainte 10) | ------------- | ------------- | ------------- |
+| FC11 (contrainte 11) | ------------- | ------------- | ------------- |
+| FC12 (contrainte 12) | ------------- | ------------- | ------------- |
+| FC13 (contrainte 13) | ------------- | ------------- | ------------- |
+| FC14 (contrainte 14) | ------------- | ------------- | ------------- |
+| FC15 (contrainte 15) | ------------- | ------------- | ------------- |
