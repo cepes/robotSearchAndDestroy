@@ -8,31 +8,31 @@ Le projet se présente sous la forme d'un proof of concept.
 
 ## Sommaire ##
 
-[Sujet du projet](#sujet-du-projet)
+[I.Sujet du projet](#i.sujet-du-projet)
 
-[Projet SearchAndDestroy](#projet-searchanddestroy)
+[II.Projet SearchAndDestroy](#ii.projet-searchanddestroy)
 
-[Analyse fonctionnelle](#analyse-fonctionnelle)
+  [A.Analyse fonctionnelle](#a.analyse-fonctionnelle)
 
-[Analyse mécanique](#analyse-mécanique)
+  [B.Analyse mécanique](#b.analyse-mécanique)
 
-[Schéma Electronique](#schéma-electronique)
+    [1.Schéma Electronique](#1.schéma-electronique)
 
-[Evolution](#evolution)
+[III.Evolution](#iii.evolution)
 
-[FAQ](#faq)
+[IV.FAQ](#iv.faq)
 
-[Liste des composants](#liste-des-composants)
+  [A.Liste des composants](#a.liste-des-composants)
 
-[Default d'un composant ?](#default-d'un-composant-?)
+  [B.Default d'un composant ?](#b.default-d'un-composant-?)
 
-[Annexes](#annexes)
+[V.Annexes](#v.annexes)
 
-[Matériel fourni](#matériel-fourni)
+  [A.Matériel fourni](#a.matériel-fourni)
 
-[Composition de l'équipe](#composition-de-l'équipe)
+  [B.Composition de l'équipe](#b.composition-de-l'équipe)
 
-## Sujet du projet ##
+## I.Sujet du projet ##
 Il s'agit d'un robot qui sera capable de ramasser des cylindres métalliques (canettes).
 Les critères initiaux du projet sont les suivants:
 
@@ -48,9 +48,9 @@ Schéma représentant le robot et son envirronnement:
 
 Le résumé complet du projet est disponible au [lien suivant](https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf)
 
-## Projet SearchAndDestroy ##
+## II.Projet SearchAndDestroy ##
 
-### Analyse fonctionnelle ###
+  ### A.Analyse fonctionnelle ###
 
 Dans le Schéma suivant:
 - FP correspond à fonction principale.
@@ -86,7 +86,7 @@ Dans le Schéma suivant:
 | FC14 (contrainte 14) | ------------- | ------------- | ------------- |
 | FC15 (contrainte 15) | ------------- | ------------- | ------------- |
 
-### Analyse mécanique ###
+  ### B.Analyse mécanique ###
 
 Le robot disposant d'un chassis basique déjà produit en grande série. Plusieurs éléments sont cependant nécessaire en ajout de ce chassis afin de répondre à notre analyse fonctionnelle.
 
@@ -99,16 +99,16 @@ Pour ce proof of concept, nous avons décidé de prendre l'option du bras articu
 
 Du point de vue 
 
-### Schéma Electronique ###
+  ### 1.Schéma Electronique ###
 
 Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm correspond à la resistance interne de l'electroaimant en fonctionnement.
 ![Circuit_Schéma_dévellopé](https://github.com/cepes/robotSearchAndDestroy/blob/master/Circuit%20schema.PNG)
 
-### Evolution ###
+## III.Evolution ##
 
-### FAQ ###
+## IV.FAQ ##
 
-#### Liste des composants ####
+    #### A.Liste des composants ####
 
 Ci-dessous voici les différents éléments composants votre robot.
 Certaines partie plastique du proof of concept étant spécifique à notre entreprise veuillez vous rapprochez de nous pour obtenir une pièce de remplacement.
@@ -133,16 +133,16 @@ Certaines partie plastique du proof of concept étant spécifique à notre entre
 | [NPN](https://www.amazon.fr/s8050d-92-%C3%A0-usage-g%C3%A9n%C3%A9ral-transistors/dp/B0087YQV5O/ref=sr_1_3?s=electronics&ie=UTF8&qid=1495631494&sr=1-3&keywords=transistor+npn+5v) | 2 | 2,57 |
 
 
-#### Default d'un composant ? ####
+    #### B.Default d'un composant ? ####
 
 En cas de défault d'un composant, il suffit d'identifier le composant défectueux à l'aide d'un multimètre et d'opérér un remplacement de celui-ci. Une liste des composants présent dans le robot est disponible dans ce FAQ à la partie liste des composants.
 
 Ci-joint un schéma électrique modélisé, un schéma électrique dévellopé est disponible dans le chapitre Projet SearchAndDestroy partie Schéma électronique:
 ![Circuit_Schéma](https://github.com/cepes/robotSearchAndDestroy/blob/master/Circuit%20modele.PNG)
 
-## Annexes ##
+## V.Annexes ##
 
-### Matériel fournit ###
+  ### A.Matériel fournit ###
 
 Le matériel de base fournit dans le cas de ce projet est le suivant :
 Nota: Tout le matériel n’est pas obligatoire, et en cas de difficultés vous pouvez toujours le remplacer par
@@ -173,7 +173,7 @@ d’autres matériels que vous pourriez vous procurer.
 | [Chargeur](http://www.gotronic.fr/art-chargeur-minilader-3-vl6424-5720.htm) | 1 |
 | [L293D](http://www.gotronic.fr/art-l293d-14072.htm) | 1 |
 
-### Composition de l'équipe ###
+  ### B.Composition de l'équipe ###
 
 - Adrien Meltzer
 - Mich Jach
