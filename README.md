@@ -107,24 +107,24 @@ Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm corres
 Ci-dessous voici les différents éléments composants votre robot.
 Certaines partie plastique du proof of concept étant spécifique à notre entreprise veuillez vous rapprochez de nous pour obtenir une pièce de remplacement.
 
-| Matériel  | Nombre | Référence  | Prix en Euros à l'unité |
-| ------------- | ------------- | ------------- |------------- |
-| Raspberry pi 3 | 1 | http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227 | 43,59 |
-| Pi camera board  | 1 | http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729 | 22,04 |
-| Carte micro SD  | 1 | http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753  | 11,70 |
-| Chassis  | 1 | http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm | 24,50 |
-| Electro aimant | 1 | https://www.gotronic.fr/art-electroaimant-grove-101020073-21548.htm  | 10,20 |
-| Servo moteur  | 2 | http://www.gotronic.fr/art-servomoteur-sg90-19377.htm | 4,95 |
-| Batterie  | 1 | https://www.amazon.fr/gp/product/B01422TC14/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 | 32,99 |
-| Interrupteur TI3 | 1 | http://www.gotronic.fr/art-interrupteur-ti3-4167.htm | 0,60 |
-| Pochette 250 condensateur ceramique | 1 | http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm | 4,95 |
-| Assortiment diodes Zener | 1 | http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm | 7.90 |
-| Assortiment resistance | 1 | http://www.gotronic.fr/art-assortiment-de-610-resistances-1-4-w-2623.htm |  11,50 |
-| Pack de cables de connexions | 1 | http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm | 9,90 |
-| Arduino Uno | 1 | https://www.amazon.fr/dp/B01N91PVIS/ref=sr_1_3?ie=UTF8&qid=1495631066&sr=8-3&keywords=arduino+uno | 9,90 |
-| Cable Alimentation Micro USB | 1 | https://www.amazon.fr/Anker-anti-emm%C3%AAlement-connecteurs-smartphones-Android/dp/B00SUX2IPE/ref=sr_1_9?ie=UTF8&qid=1495631198&sr=8-9&keywords=cable+micro+usb | 5,99 |
-| Cable Alimentation Circuit | 1 | Fournisseur | 5,99 |
-| NPN | 2 | https://www.amazon.fr/s8050d-92-%C3%A0-usage-g%C3%A9n%C3%A9ral-transistors/dp/B0087YQV5O/ref=sr_1_3?s=electronics&ie=UTF8&qid=1495631494&sr=1-3&keywords=transistor+npn+5v | 2,57 |
+| Matériel  | Nombre | Prix en Euros à l'unité |
+| ------------- | ------------- | ------------- |
+| [Raspberry pi 3](http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227) | 1 | 43,59 |
+| [Pi camera board](http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729) | 1 | 22,04 |
+| [Carte micro SD](http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753) | 1 | 11,70 |
+| [Chassis](http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm)  | 1 | 24,50 |
+| [Electro aimant](https://www.gotronic.fr/art-electroaimant-grove-101020073-21548.htm) | 1 | 10,20 |
+| [Servo moteur](http://www.gotronic.fr/art-servomoteur-sg90-19377.htm )  | 2 | 4,95 |
+| [Batterie](https://www.amazon.fr/gp/product/B01422TC14/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)  | 1 | 32,99 |
+| [Interrupteur TI3](http://www.gotronic.fr/art-interrupteur-ti3-4167.htm) | 1 | 0,60 |
+| [Pochette 250 condensateur ceramique](http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm) | 1 | 4,95 |
+| [Assortiment diodes Zener](http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm) | 1 | 7.90 |
+| [Assortiment resistance](http://www.gotronic.fr/art-assortiment-de-610-resistances-1-4-w-2623.htm) | 1 |  11,50 |
+| [Pack de cables de connexions](http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm) | 1 | 9,90 |
+| [Arduino Uno](https://www.amazon.fr/dp/B01N91PVIS/ref=sr_1_3?ie=UTF8&qid=1495631066&sr=8-3&keywords=arduino+uno) | 1 | 9,90 |
+| [Cable Alimentation Micro USB](https://www.amazon.fr/Anker-anti-emm%C3%AAlement-connecteurs-smartphones-Android/dp/B00SUX2IPE/ref=sr_1_9?ie=UTF8&qid=1495631198&sr=8-9&keywords=cable+micro+usb) | 1 | 5,99 |
+| [Cable Alimentation Circuit]() | 1 | Fournisseur | 5,99 |
+| [NPN](https://www.amazon.fr/s8050d-92-%C3%A0-usage-g%C3%A9n%C3%A9ral-transistors/dp/B0087YQV5O/ref=sr_1_3?s=electronics&ie=UTF8&qid=1495631494&sr=1-3&keywords=transistor+npn+5v) | 2 | 2,57 |
 
 
 #### Default d'un composant ? ####
@@ -145,24 +145,24 @@ d’autres matériels que vous pourriez vous procurer.
 
 | Matériel  | Nombre | Lien  |
 | ------------- | ------------- | ------------- |
-| Raspberry pi 3 | 1 | http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227 |
-| Pi camera board  | 1 | http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729 |
-| Carte micro SD  | 1 | http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753  |
-| Chassis  | 1 | http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm |
-| Electro aimant | 1 | http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm  |
-| Circuit picaxe 28x2 AXE401K | 1 | http://www.gotronic.fr/art-circuit-d-essais-pour-picaxe-18m2-chi030-11934.htm#complte_desc |
-| Cable Picaxe  | 1 | http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm |
-| Servo moteur  | 3 | http://www.gotronic.fr/art-servomoteur-sg90-19377.htm |
-| Batterie  | 1 | https://www.amazon.fr/Batterie-15600mAh-Coolreall-Chargeur-Smartphone/dp/B01KFJEEES/ref=sr_1_1?ie=UTF8&qid=1489416295&sr=8-1&keywords=coolreall+15600mah  |
-| ULN2803A | 3 | http://www.gotronic.fr/art-uln2803a-10727.htm |
-| L7805CV  | 2 | http://www.gotronic.fr/art-l7805cv-1578.htm |
-| Interrupteur TI3 | 1 | http://www.gotronic.fr/art-interrupteur-ti3-4167.htm |
-| Accu modelisme | 1 | http://www.gotronic.fr/art-accu-modelisme-nimh-9-6v-2ah-5772.htm |
-| Kit d'isolement pour TO220  | 2 | http://www.gotronic.fr/art-kit-d-isolement-pour-to220-6029.htm|
-| Refroidisseur ML7 | 2 | http://www.gotronic.fr/art-refroidisseur-ml7-6000.htm |
-| Pochette 250 condensateur ceramique | 1 | http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm |
-| Assortiment resistance | 1 | http://www.gotronic.fr/art-assortiment-de-610-resistances-1-4-w-2623.htm |
-| Assortiment diodes Zener | 1 | http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm |
-| Pack de cables de connexions | 1 | http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm |
-| Chargeur | 1 | http://www.gotronic.fr/art-chargeur-minilader-3-vl6424-5720.htm |
-| L293D | 1 | http://www.gotronic.fr/art-l293d-14072.htm |
+| [Raspberry pi 3](http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227) | 1 |
+| [Pi camera board](http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729) | 1 |
+| [Carte micro SD](http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753) | 1 |
+| [Chassis](http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm) | 1 |
+| [Electro aimant](https://www.gotronic.fr/art-electroaimant-grove-101020073-21548.htm) | 1 |
+| [Circuit picaxe 28x2 AXE401K](http://www.gotronic.fr/art-circuit-d-essais-pour-picaxe-18m2-chi030-11934.htm#complte_desc) | 1 |
+| [Cable Picaxe](http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm)  | 1 |
+| [Servo moteur](http://www.gotronic.fr/art-servomoteur-sg90-19377.htm )  | 2 |
+| [Batterie](https://www.amazon.fr/Batterie-15600mAh-Coolreall-Chargeur-Smartphone/dp/B01KFJEEES/ref=sr_1_1?ie=UTF8&qid=1489416295&sr=8-1&keywords=coolreall+15600mah) | 1 |
+| [ULN2803A](http://www.gotronic.fr/art-uln2803a-10727.htm ) | 3 |
+| [L7805CV](http://www.gotronic.fr/art-l7805cv-1578.htm) | 2 |
+| [Interrupteur TI3](http://www.gotronic.fr/art-interrupteur-ti3-4167.htm) | 1 |
+| [Accu modelisme](http://www.gotronic.fr/art-accu-modelisme-nimh-9-6v-2ah-5772.htm) | 1 |
+| [Kit d'isolement pour TO220](http://www.gotronic.fr/art-kit-d-isolement-pour-to220-6029.htm|)  | 2 |
+| [Refroidisseur ML7](http://www.gotronic.fr/art-refroidisseur-ml7-6000.htm) | 2 |
+| [Pochette 250 condensateur ceramique](http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm) | 1 |
+| [Assortiment diodes Zener](http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm) | 1 |
+| [Assortiment resistance](http://www.gotronic.fr/art-assortiment-de-610-resistances-1-4-w-2623.htm) | 1 |
+| [Pack de cables de connexions](http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm) | 1 |
+| [Chargeur](http://www.gotronic.fr/art-chargeur-minilader-3-vl6424-5720.htm) | 1 |
+| [L293D](http://www.gotronic.fr/art-l293d-14072.htm) | 1 |
