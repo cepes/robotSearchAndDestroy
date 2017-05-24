@@ -53,6 +53,8 @@ Il est aussi possible de déporter le traitement des données en connectant le R
 disposant d’un Cluster Hadoop, afin de déporter le traitement des images. Cette solution devra être
 étudiée et mise en place si elle est jugée pertinente et si cela améliore les performances du robot.
 
+Le résumé complet du projet est disponible au lien suivant : 
+
 ## Projet SearchAndDestroy ##
 
 ### Analyse fonctionnelle ###
@@ -69,24 +71,26 @@ Dans le Schéma suivant:
 | FP2 (fonction principale 2) | Doit pouvoir se déplacer | Avancer / Reculer / Gauche / Droite | Angle de Rotation |
 | FP3 (fonction principale 3) | Doit pouvoir identifier des objets | Taux de reconnaissance des canettes / Accident contre un obstacle | ------------- |
 | ------------- | ------------- | ------------- | ------------- |
-| FS1 (fonction secondaire 1) | Doit pouvoir se déplacer en faisant de la lumière ou un son | ------------- | ------------- |
+| FS1 (fonction secondaire 1) | Doit pouvoir se déplacer en faisant de la lumière ou un son | lumière dégagé et son entendu en db | ------------- |
 | FS2 (fonction secondaire 2) | Doit pouvoir être paramétrable par l’opérateur | ------------- | ------------- |
 | FS3 (fonction secondaire 3) | Doit pouvoir se situer pour retourner au dépôt en évitant les obstacles | ------------- | ------------- |
 | FS4 (fonction secondaire 4) | Doit pouvoir se situer pour rester dans la zone en évitant les obstacles | ------------- | ------------- |
-| FS5 (fonction secondaire 5) | Doit savoir quand il est chargé | ------------- | ------------- |
+| FS5 (fonction secondaire 5) | Doit savoir quand il est chargé | témoin de charge / Décharge | ------------- |
 | ------------- | ------------- | ------------- | ------------- |
-| FC1 (contrainte 1) | Doit évoluer dans une zone de 20cm² (4 x 5m) | ------------- | ------------- |
-| FC2 (contrainte 2) | Doit être utilisé de jour | ------------- | ------------- |
-| FC3 (contrainte 3) | Doit être autonome | ------------- | ------------- |
-| FC4 (contrainte 4) | Doit esquiver des obstacles | ------------- | ------------- |
+| FC1 (contrainte 1) | Doit évoluer dans une zone de 20cm² (4 x 5m) | test sur la durée dans une surface supérieur | ------------- |
+| FC2 (contrainte 2) | Doit être utilisé de jour | Taux de luminosité de la zone de test | ------------- |
+| FC3 (contrainte 3) | Doit être autonome | nombre de raccordement physique en cas d'intervention | ------------- |
+| FC4 (contrainte 4) | Doit esquiver des obstacles | parcour de test | ------------- |
 | FC5 (contrainte 5) | Doit avoir une zone de dépôt (40 x 40 cm) | ------------- | ------------- |
-| FC6 (contrainte 6) | Ne doit pas mettre en danger l’utilisateur | ------------- | ------------- |
-| FC7 (contrainte 7) | Resistance aux chocs | ------------- | ------------- |
-| FC8 (contrainte 8) | Conforme aux normes CE | ------------- | ------------- |
-| FC9 (contrainte 9) | Resistance a l'eau | ------------- | Resistance aux eclaboussure |
+| FC6 (contrainte 6) | Ne doit pas mettre en danger l’utilisateur | action non prévu interrompt le schéma initial | ------------- |
+| FC7 (contrainte 7) | Resistance aux chocs | crashtest/écrassement | ------------- |
+| FC8 (contrainte 8) | Conforme aux normes CE | habilitation | ------------- |
+| FC9 (contrainte 9) | Resistance a l'eau | test avec de l'eau | Resistance aux eclaboussure |
 | FC10 (contrainte 10) | ------------- | ------------- | ------------- |
 | FC11 (contrainte 11) | ------------- | ------------- | ------------- |
 | FC12 (contrainte 12) | ------------- | ------------- | ------------- |
 | FC13 (contrainte 13) | ------------- | ------------- | ------------- |
 | FC14 (contrainte 14) | ------------- | ------------- | ------------- |
 | FC15 (contrainte 15) | ------------- | ------------- | ------------- |
+
+Au vue des contraintes, il a fallu analyser les différents éléments nécessaire à notre robot.
