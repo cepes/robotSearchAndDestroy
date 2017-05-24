@@ -9,7 +9,9 @@ Le projet se présente sous la forme d'un proof of concept.
 ## Sommaire ##
 
 [Sujet du projet](#sujet-du-projet)
+
 [Projet SearchAndDestroy](##projet-searchanddestroy)
+
 [Analyse fonctionnelle](##analyse-fonctionnelle)
 
 
