@@ -24,7 +24,7 @@ Le projet se présente sous la forme d'un proof of concept.
 
   [A.Liste des composants](#aliste-des-composants)
 
-  [B.Default d'un composant ?](#bdefault-d'un-composant-?)
+  [B.Default d'un composant ?](#bdefault-d'un-composant-?-)
 
 [V.Annexes](#vannexes)
 
