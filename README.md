@@ -143,8 +143,8 @@ Nota: Tout le matériel n’est pas obligatoire, et en cas de difficultés vous 
 d’autres matériels que vous pourriez vous procurer.
 
 
-| Matériel  | Nombre | Lien  |
-| ------------- | ------------- | ------------- |
+| Matériel  | Nombre |
+| ------------- | ------------- |
 | [Raspberry pi 3](http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227) | 1 |
 | [Pi camera board](http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729) | 1 |
 | [Carte micro SD](http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753) | 1 |
@@ -154,11 +154,11 @@ d’autres matériels que vous pourriez vous procurer.
 | [Cable Picaxe](http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm)  | 1 |
 | [Servo moteur](http://www.gotronic.fr/art-servomoteur-sg90-19377.htm )  | 2 |
 | [Batterie](https://www.amazon.fr/Batterie-15600mAh-Coolreall-Chargeur-Smartphone/dp/B01KFJEEES/ref=sr_1_1?ie=UTF8&qid=1489416295&sr=8-1&keywords=coolreall+15600mah) | 1 |
-| [ULN2803A](http://www.gotronic.fr/art-uln2803a-10727.htm ) | 3 |
+| [ULN2803A](http://www.gotronic.fr/art-uln2803a-10727.htm) | 3 |
 | [L7805CV](http://www.gotronic.fr/art-l7805cv-1578.htm) | 2 |
 | [Interrupteur TI3](http://www.gotronic.fr/art-interrupteur-ti3-4167.htm) | 1 |
 | [Accu modelisme](http://www.gotronic.fr/art-accu-modelisme-nimh-9-6v-2ah-5772.htm) | 1 |
-| [Kit d'isolement pour TO220](http://www.gotronic.fr/art-kit-d-isolement-pour-to220-6029.htm|)  | 2 |
+| [Kit d'isolement pour TO220](http://www.gotronic.fr/art-kit-d-isolement-pour-to220-6029.htm) | 2 |
 | [Refroidisseur ML7](http://www.gotronic.fr/art-refroidisseur-ml7-6000.htm) | 2 |
 | [Pochette 250 condensateur ceramique](http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm) | 1 |
 | [Assortiment diodes Zener](http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm) | 1 |
