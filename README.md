@@ -24,7 +24,7 @@ Le projet se présente sous la forme d'un proof of concept.
 
   [A.Liste des composants](#aliste-des-composants)
 
-  [B.Default d'un composant ?](#bdefault-d'un-composant-)
+  [B.Default d'un composant ?](#bdefault-dun-composant-)
 
 [V.Annexes](#vannexes)
 
@@ -97,14 +97,28 @@ La webcam nécessite cependant afin de pouvoir répondre à la question d'être 
 
 Pour ce proof of concept, nous avons décidé de prendre l'option du bras articulé en effet cette option à l'avantage de permettre une plus grande rotation de la caméra. Celle-ci peut ainsi atteindre un axe de rotation d'un peu moins de 360°. Notre exemple cependant restera sur une rotation sur un seul plan.
 
-Du point de vue 
+Du point de vue de la fonction principale 1. Il fallait un élément permettant la préhension. Plusieurs possiblités furent étudiés:
+- Système de pince. Le problème pouvant être la complexité de l'algorythme au vu du temps de dévellopement pour positioner correctement la pince.
+- Système de rateau. Le problème pouvant être de bloquer le fonctionnement correct des roues.
+- Système de pelle. Le problème étant la complexité du système mécanique à mettre en place pour soulever l'objet afin de pouvoir faire levier.
+- Système magnétique. L'avantage de cette solution par rapport aux autres et de pouvoir être sur de n'attraper que des cylindres en métal.
+
+La solution de l'équipe fut l'utilisation d'un électro-aimant afin de ne pas avoir un aimant fonctionnant en continu et pouvant ainsi récuperé des éléments mécaniques de façon imprévu. 
 
   ### Schéma Electronique ###
 
 Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm correspond à la resistance interne de l'electroaimant en fonctionnement.
 ![Circuit_Schéma_dévellopé](https://github.com/cepes/robotSearchAndDestroy/blob/master/Circuit%20schema.PNG)
 
+  ### C.UML ###
+  
+![UML de déploiement](https://github.com/cepes/robotSearchAndDestroy/blob/master/UML%20Deploiement.PNG)
+
 ## III.Evolution ##
+
+| Fonction  | Rôle | Critères | Flexibilité | Evolution | Faisabilité |
+| FP3 | Doit pouvoir identifier des objets | Taux de reconnaissance des canettes / Accident contre un obstacle | ------------- | Permettre une reconnaissance sur plusieurs niveaux avec une autre webcam sur le dessus manoeuvré par deux servo-moteurs (<360°)| 100% |
+| FC3 | Doit être autonome | nombre de raccordement physique en cas d'intervention | ------------- | Ajout d'une bobine à induction sous le robot pour recharger la baterrie | 100% |
 
 ## IV.FAQ ##
 
@@ -175,6 +189,6 @@ d’autres matériels que vous pourriez vous procurer.
 
   ### B.Composition de l'équipe ###
 
-- Adrien Meltzer
-- Mich Jach
-- David Van Aelst
+- Adrien Meltzer @github/adrienelium
+- Mich Jach @github/michaeljach
+- David Van Aelst @github/cepes
