@@ -6,6 +6,13 @@
 L'objectif de ce projet est de répondre à un appel d'offre fictif au sujet de robots de nettoyage urbain.
 Le projet se présente sous la forme d'un proof of concept.
 
+## Sommaire ##
+
+[Sujet du projet](#Sujet-du-projet)
+[Projet SearchAndDestroy](#Projet-SearchAndDestroy)
+[Analyse fonctionnelle](#Analyse-fonctionnelle)
+
+
 ## Sujet du projet ##
 Il s'agit d'un robot qui sera capable de ramasser des cylindres métalliques (canettes).
 Les critères initiaux du projet sont les suivants:
