@@ -6,8 +6,6 @@
 L'objectif de ce projet est de répondre à un appel d'offre fictif au sujet de robots de nettoyage urbain.
 Le projet se présente sous la forme d'un proof of concept.
 
-
-
 ## Sujet du projet ##
 Il s'agit d'un robot qui sera capable de ramasser des cylindres métalliques (canettes).
 Les critères initiaux du projet sont les suivants:
@@ -22,8 +20,7 @@ Les critères initiaux du projet sont les suivants:
 Schéma représentant le robot et son envirronnement:
 ![Image Sujet](https://raw.githubusercontent.com/cepes/robotSearchAndDestroy/master/schema_analyse.png)
 
-Le résumé complet du projet est disponible au lien suivant : 
-[https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf](https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf "Lien Sujet")
+Le résumé complet du projet est disponible au [lien suivant](https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf)
 
 ## Projet SearchAndDestroy ##
 
@@ -63,7 +60,18 @@ Dans le Schéma suivant:
 | FC14 (contrainte 14) | ------------- | ------------- | ------------- |
 | FC15 (contrainte 15) | ------------- | ------------- | ------------- |
 
-Au vue des contraintes, il a fallu analyser les différents éléments nécessaire à notre robot. Notre robot nécessite donc un système de
+### Analyse mécanique ###
+
+Le robot disposant d'un chassis basique déjà produit en grande série. Plusieurs éléments sont cependant nécessaire en ajout de ce chassis afin de répondre à notre analyse fonctionnelle.
+
+Du point de vue de la fonction principale 3 et selon les cas 1. Pour identifier un objet nous avons choisi d'utiliser une webcam.
+La webcam nécessite cependant afin de pouvoir répondre à la question d'être mobile plusieurs possiblités pour étendre son champ de visionson possible:
+- Fixé sur le chassis, pour augmenter le champ de vision cette tâche revient aux roues
+- Mobile sur un bras articulé.
+
+Pour ce proof of concept, nous avons décidé de prendre l'option du bras articulé en effet cette option à l'avantage de permettre une plus grande rotation de la caméra. Celle-ci peut ainsi atteindre un axe de rotation d'un peu moins de 360°. Notre exemple cependant restera sur une rotation sur un seul plan.
+
+Du point de vue 
 
 ### Schéma Electronique ###
 
@@ -77,7 +85,7 @@ Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm corres
 Ci-dessous voici les différents éléments composants votre robot.
 Certaines partie plastique du proof of concept étant spécifique à notre entreprise veuillez vous rapprochez de nous pour obtenir une pièce de remplacement.
 
-| Matériel  | Nombre | Lien  | Prix en Euros à l'unité |
+| Matériel  | Nombre | Référence  | Prix en Euros à l'unité |
 | ------------- | ------------- | ------------- |------------- |
 | Raspberry pi 3 | 1 | http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227 | 43,59 |
 | Pi camera board  | 1 | http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729 | 22,04 |
@@ -94,6 +102,7 @@ Certaines partie plastique du proof of concept étant spécifique à notre entre
 | Arduino Uno | 1 | https://www.amazon.fr/dp/B01N91PVIS/ref=sr_1_3?ie=UTF8&qid=1495631066&sr=8-3&keywords=arduino+uno | 9,90 |
 | Cable Alimentation Micro USB | 1 | https://www.amazon.fr/Anker-anti-emm%C3%AAlement-connecteurs-smartphones-Android/dp/B00SUX2IPE/ref=sr_1_9?ie=UTF8&qid=1495631198&sr=8-9&keywords=cable+micro+usb | 5,99 |
 | Cable Alimentation Circuit | 1 | Fournisseur | 5,99 |
+| NPN | 2 | https://www.amazon.fr/s8050d-92-%C3%A0-usage-g%C3%A9n%C3%A9ral-transistors/dp/B0087YQV5O/ref=sr_1_3?s=electronics&ie=UTF8&qid=1495631494&sr=1-3&keywords=transistor+npn+5v | 2,57 |
 
 
 #### Default d'un composant ? ####
