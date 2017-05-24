@@ -19,6 +19,10 @@ Les critères initiaux du projet sont les suivants:
 - La zone pourra comporter des obstacles qui peuvent être esquivés
 - La zone de dépôt sera un carré rouge de 40cmx40cm
 
+Schéma représentant le robot et son envirronnement:
+![Image Sujet](https://raw.githubusercontent.com/cepes/robotSearchAndDestroy/master/schema_analyse.png)
+
+
 Le matériel de base fournit dans le cas de ce projet est le suivant :
 Nota: Tout le matériel n’est pas obligatoire, et en cas de difficultés vous pouvez toujours le remplacer par
 d’autres matériels que vous pourriez vous procurer.
