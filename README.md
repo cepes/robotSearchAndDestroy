@@ -18,6 +18,8 @@ Le projet se présente sous la forme d'un proof of concept.
 
 [Schéma Electronique](#schéma-electronique)
 
+[Evolution](#evolution)
+
 [FAQ](#faq)
 
 [Liste des composants](#liste-des-composants)
@@ -27,6 +29,8 @@ Le projet se présente sous la forme d'un proof of concept.
 [Annexes](#annexes)
 
 [Matériel fourni](#matériel-fourni)
+
+[Composition de l'équipe](#composition-de-l'équipe)
 
 ## Sujet du projet ##
 Il s'agit d'un robot qui sera capable de ramasser des cylindres métalliques (canettes).
@@ -99,6 +103,8 @@ Du point de vue
 
 Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm correspond à la resistance interne de l'electroaimant en fonctionnement.
 ![Circuit_Schéma_dévellopé](https://github.com/cepes/robotSearchAndDestroy/blob/master/Circuit%20schema.PNG)
+
+### Evolution ###
 
 ### FAQ ###
 
