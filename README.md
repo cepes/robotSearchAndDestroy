@@ -16,7 +16,7 @@ Le projet se présente sous la forme d'un proof of concept.
 
   [B.Analyse mécanique](#banalyse-mécanique)
 
-    [1.Schéma Electronique](#1schéma-electronique)
+[Schéma Electronique](#schéma-electronique)
 
 [III.Evolution](#iiievolution)
 
@@ -99,7 +99,7 @@ Pour ce proof of concept, nous avons décidé de prendre l'option du bras articu
 
 Du point de vue 
 
-  ### 1.Schéma Electronique ###
+  ### Schéma Electronique ###
 
 Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm correspond à la resistance interne de l'electroaimant en fonctionnement.
 ![Circuit_Schéma_dévellopé](https://github.com/cepes/robotSearchAndDestroy/blob/master/Circuit%20schema.PNG)
