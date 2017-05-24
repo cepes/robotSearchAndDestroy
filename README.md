@@ -108,7 +108,7 @@ Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm corres
 
 ## IV.FAQ ##
 
-    #### A.Liste des composants ####
+   #### A.Liste des composants ####
 
 Ci-dessous voici les différents éléments composants votre robot.
 Certaines partie plastique du proof of concept étant spécifique à notre entreprise veuillez vous rapprochez de nous pour obtenir une pièce de remplacement.
@@ -133,7 +133,7 @@ Certaines partie plastique du proof of concept étant spécifique à notre entre
 | [NPN](https://www.amazon.fr/s8050d-92-%C3%A0-usage-g%C3%A9n%C3%A9ral-transistors/dp/B0087YQV5O/ref=sr_1_3?s=electronics&ie=UTF8&qid=1495631494&sr=1-3&keywords=transistor+npn+5v) | 2 | 2,57 |
 
 
-    #### B.Default d'un composant ? ####
+   #### B.Default d'un composant ? ####
 
 En cas de défault d'un composant, il suffit d'identifier le composant défectueux à l'aide d'un multimètre et d'opérér un remplacement de celui-ci. Une liste des composants présent dans le robot est disponible dans ce FAQ à la partie liste des composants.
 
