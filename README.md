@@ -54,6 +54,7 @@ disposant d’un Cluster Hadoop, afin de déporter le traitement des images. Cet
 étudiée et mise en place si elle est jugée pertinente et si cela améliore les performances du robot.
 
 Le résumé complet du projet est disponible au lien suivant : 
+[https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf](https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf "Lien Sujet")
 
 ## Projet SearchAndDestroy ##
 
