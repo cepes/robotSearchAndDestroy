@@ -77,15 +77,25 @@ Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm corres
 Ci-dessous voici les différents éléments composants votre robot.
 Certaines partie plastique du proof of concept étant spécifique à notre entreprise veuillez vous rapprochez de nous pour obtenir une pièce de remplacement.
 
-| Matériel  | Nombre | Lien  |------------- |
+| Matériel  | Nombre | Lien  | Prix en Euros à l'unité |
 | ------------- | ------------- | ------------- |------------- |
-| Raspberry pi 3 | 1 | http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227 |------------- |
-| Pi camera board  | 1 | http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729 |------------- |
-| Carte micro SD  | 1 | http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753  |------------- |
-| Chassis  | 1 | http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm |------------- |
-| Electro aimant | 1 | http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm  |------------- |
-| Servo moteur  | 3 | http://www.gotronic.fr/art-servomoteur-sg90-19377.htm |------------- |
-| Batterie  | 1 | https://www.amazon.fr/gp/product/B01422TC14/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 |------------- |
+| Raspberry pi 3 | 1 | http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227 | 43,59 |
+| Pi camera board  | 1 | http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729 | 22,04 |
+| Carte micro SD  | 1 | http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753  | 11,70 |
+| Chassis  | 1 | http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm | 24,50 |
+| Electro aimant | 1 | https://www.gotronic.fr/art-electroaimant-grove-101020073-21548.htm  | 10,20 |
+| Servo moteur  | 2 | http://www.gotronic.fr/art-servomoteur-sg90-19377.htm | 4,95 |
+| Batterie  | 1 | https://www.amazon.fr/gp/product/B01422TC14/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 | 32,99 |
+| Interrupteur TI3 | 1 | http://www.gotronic.fr/art-interrupteur-ti3-4167.htm | 0,60 |
+| Pochette 250 condensateur ceramique | 1 | http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm | 4,95 |
+| Assortiment diodes Zener | 1 | http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm | 7.90 |
+| Assortiment resistance | 1 | http://www.gotronic.fr/art-assortiment-de-610-resistances-1-4-w-2623.htm |  11,50 |
+| Pack de cables de connexions | 1 | http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm | 9,90 |
+| Arduino Uno | 1 | https://www.amazon.fr/dp/B01N91PVIS/ref=sr_1_3?ie=UTF8&qid=1495631066&sr=8-3&keywords=arduino+uno | 9,90 |
+| Cable Alimentation Micro USB | 1 | https://www.amazon.fr/Anker-anti-emm%C3%AAlement-connecteurs-smartphones-Android/dp/B00SUX2IPE/ref=sr_1_9?ie=UTF8&qid=1495631198&sr=8-9&keywords=cable+micro+usb | 5,99 |
+| Cable Alimentation Circuit | 1 | Fournisseur | 5,99 |
+
+
 #### Default d'un composant ? ####
 
 En cas de défault d'un composant, il suffit d'identifier le composant défectueux à l'aide d'un multimètre et d'opérér un remplacement de celui-ci. Une liste des composants présent dans le robot est disponible dans ce FAQ à la partie liste des composants.
