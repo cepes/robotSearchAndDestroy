@@ -8,29 +8,29 @@ Le projet se présente sous la forme d'un proof of concept.
 
 ## Sommaire ##
 
-[I.Sujet du projet](#i.sujet-du-projet)
+[I.Sujet du projet](#isujet-du-projet)
 
-[II.Projet SearchAndDestroy](#ii.projet-searchanddestroy)
+[II.Projet SearchAndDestroy](#iiprojet-searchanddestroy)
 
-  [A.Analyse fonctionnelle](#a.analyse-fonctionnelle)
+  [A.Analyse fonctionnelle](#aanalyse-fonctionnelle)
 
-  [B.Analyse mécanique](#b.analyse-mécanique)
+  [B.Analyse mécanique](#banalyse-mécanique)
 
-    [1.Schéma Electronique](#1.schéma-electronique)
+    [1.Schéma Electronique](#1schéma-electronique)
 
-[III.Evolution](#iii.evolution)
+[III.Evolution](#iiievolution)
 
-[IV.FAQ](#iv.faq)
+[IV.FAQ](#ivfaq)
 
-  [A.Liste des composants](#a.liste-des-composants)
+  [A.Liste des composants](#aliste-des-composants)
 
-  [B.Default d'un composant ?](#b.default-d'un-composant-?)
+  [B.Default d'un composant ?](#bdefault-d'un-composant-?)
 
-[V.Annexes](#v.annexes)
+[V.Annexes](#vannexes)
 
-  [A.Matériel fourni](#a.matériel-fourni)
+  [A.Matériel fourni](#amatériel-fourni)
 
-  [B.Composition de l'équipe](#b.composition-de-l'équipe)
+  [B.Composition de l'équipe](#bcomposition-de-l'équipe)
 
 ## I.Sujet du projet ##
 Il s'agit d'un robot qui sera capable de ramasser des cylindres métalliques (canettes).
