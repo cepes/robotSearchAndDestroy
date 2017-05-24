@@ -166,3 +166,9 @@ d’autres matériels que vous pourriez vous procurer.
 | [Pack de cables de connexions](http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm) | 1 |
 | [Chargeur](http://www.gotronic.fr/art-chargeur-minilader-3-vl6424-5720.htm) | 1 |
 | [L293D](http://www.gotronic.fr/art-l293d-14072.htm) | 1 |
+
+### Composition de l'équipe ###
+
+- Adrien Meltzer
+- Mich Jach
+- David Van Aelst
