@@ -22,41 +22,6 @@ Les critères initiaux du projet sont les suivants:
 Schéma représentant le robot et son envirronnement:
 ![Image Sujet](https://raw.githubusercontent.com/cepes/robotSearchAndDestroy/master/schema_analyse.png)
 
-
-Le matériel de base fournit dans le cas de ce projet est le suivant :
-Nota: Tout le matériel n’est pas obligatoire, et en cas de difficultés vous pouvez toujours le remplacer par
-d’autres matériels que vous pourriez vous procurer.
-
-
-| Matériel  | Nombre | Lien  |
-| ------------- | ------------- | ------------- |
-| Raspberry pi 3 | 1 | http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227 |
-| Pi camera board  | 1 | http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729 |
-| Carte micro SD  | 1 | http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753  |
-| Chassis  | 1 | http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm |
-| Electro aimant | 1 | http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm  |
-| Circuit picaxe 28x2 AXE401K | 1 | http://www.gotronic.fr/art-circuit-d-essais-pour-picaxe-18m2-chi030-11934.htm#complte_desc |
-| Cable Picaxe  | 1 | http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm |
-| Servo moteur  | 3 | http://www.gotronic.fr/art-servomoteur-sg90-19377.htm |
-| Batterie  | 1 | https://www.amazon.fr/Batterie-15600mAh-Coolreall-Chargeur-Smartphone/dp/B01KFJEEES/ref=sr_1_1?ie=UTF8&qid=1489416295&sr=8-1&keywords=coolreall+15600mah  |
-| ULN2803A | 3 | http://www.gotronic.fr/art-uln2803a-10727.htm |
-| L7805CV  | 2 | http://www.gotronic.fr/art-l7805cv-1578.htm |
-| Interrupteur TI3 | 1 | http://www.gotronic.fr/art-interrupteur-ti3-4167.htm |
-| Accu modelisme | 1 | http://www.gotronic.fr/art-accu-modelisme-nimh-9-6v-2ah-5772.htm |
-| Kit d'isolement pour TO220  | 2 | http://www.gotronic.fr/art-kit-d-isolement-pour-to220-6029.htm|
-| Refroidisseur ML7 | 2 | http://www.gotronic.fr/art-refroidisseur-ml7-6000.htm |
-| Pochette 250 condensateur ceramique | 1 | http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm |
-| Assortiment resistance | 1 | http://www.gotronic.fr/art-assortiment-de-610-resistances-1-4-w-2623.htm |
-| Assortiment diodes Zener | 1 | http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm |
-| Pack de cables de connexions | 1 | http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm |
-| Chargeur | 1 | http://www.gotronic.fr/art-chargeur-minilader-3-vl6424-5720.htm |
-| L293D | 1 | http://www.gotronic.fr/art-l293d-14072.htm |
-
-
-Il est aussi possible de déporter le traitement des données en connectant le Raspberry à une machine
-disposant d’un Cluster Hadoop, afin de déporter le traitement des images. Cette solution devra être
-étudiée et mise en place si elle est jugée pertinente et si cela améliore les performances du robot.
-
 Le résumé complet du projet est disponible au lien suivant : 
 [https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf](https://github.com/cepes/robotSearchAndDestroy/blob/master/sujet.pdf "Lien Sujet")
 
@@ -98,4 +63,50 @@ Dans le Schéma suivant:
 | FC14 (contrainte 14) | ------------- | ------------- | ------------- |
 | FC15 (contrainte 15) | ------------- | ------------- | ------------- |
 
-Au vue des contraintes, il a fallu analyser les différents éléments nécessaire à notre robot.
+Au vue des contraintes, il a fallu analyser les différents éléments nécessaire à notre robot. Notre robot nécessite donc un système de
+
+### Schéma Electronique ###
+
+Le schéma éléctrique est le suivant. La R3 électro-aimant de 12,5 Ohm correspond à la resistance interne de l'electroaimant en fonctionnement.
+![Circuit_Schéma_dévellopé](https://github.com/cepes/robotSearchAndDestroy/blob/master/Circuit%20schema.PNG)
+
+### FAQ ###
+
+#### Default d'un composant ? ####
+
+En cas de défault d'un composant, il suffit d'identifier le composant défectueux à l'aide d'un multimètre et d'opérér un remplacement de celui-ci.
+Ci-joint un schéma électrique modélisé, un schéma électrique dévellopé est disponible dans le chapitre Projet SearchAndDestroy partie Schéma électronique:
+![Circuit_Schéma](https://github.com/cepes/robotSearchAndDestroy/blob/master/Circuit%20modele.PNG)
+
+## Annexes ##
+
+### Matériel fournit ###
+
+Le matériel de base fournit dans le cas de ce projet est le suivant :
+Nota: Tout le matériel n’est pas obligatoire, et en cas de difficultés vous pouvez toujours le remplacer par
+d’autres matériels que vous pourriez vous procurer.
+
+
+| Matériel  | Nombre | Lien  |
+| ------------- | ------------- | ------------- |
+| Raspberry pi 3 | 1 | http://fr.farnell.com/raspberry-pi/rpi3-modb-16gb-noobs/sbc-raspberry-pi3-mod-b-carte/dp/2525227 |
+| Pi camera board  | 1 | http://fr.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2510729 |
+| Carte micro SD  | 1 | http://fr.farnell.com/transcend/tsraspi10-16g/16gb-microsd-card-preloaded-with/dp/2521753  |
+| Chassis  | 1 | http://www.gotronic.fr/art-chassis-eco-dg008-17741.htm |
+| Electro aimant | 1 | http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm  |
+| Circuit picaxe 28x2 AXE401K | 1 | http://www.gotronic.fr/art-circuit-d-essais-pour-picaxe-18m2-chi030-11934.htm#complte_desc |
+| Cable Picaxe  | 1 | http://www.gotronic.fr/art-cable-de-telechargement-usb-axe027-11921.htm |
+| Servo moteur  | 3 | http://www.gotronic.fr/art-servomoteur-sg90-19377.htm |
+| Batterie  | 1 | https://www.amazon.fr/Batterie-15600mAh-Coolreall-Chargeur-Smartphone/dp/B01KFJEEES/ref=sr_1_1?ie=UTF8&qid=1489416295&sr=8-1&keywords=coolreall+15600mah  |
+| ULN2803A | 3 | http://www.gotronic.fr/art-uln2803a-10727.htm |
+| L7805CV  | 2 | http://www.gotronic.fr/art-l7805cv-1578.htm |
+| Interrupteur TI3 | 1 | http://www.gotronic.fr/art-interrupteur-ti3-4167.htm |
+| Accu modelisme | 1 | http://www.gotronic.fr/art-accu-modelisme-nimh-9-6v-2ah-5772.htm |
+| Kit d'isolement pour TO220  | 2 | http://www.gotronic.fr/art-kit-d-isolement-pour-to220-6029.htm|
+| Refroidisseur ML7 | 2 | http://www.gotronic.fr/art-refroidisseur-ml7-6000.htm |
+| Pochette 250 condensateur ceramique | 1 | http://www.gotronic.fr/art-pochette-de-250-condensateurs-ceramiques-19398.htm |
+| Assortiment resistance | 1 | http://www.gotronic.fr/art-assortiment-de-610-resistances-1-4-w-2623.htm |
+| Assortiment diodes Zener | 1 | http://www.gotronic.fr/art-assortiment-de-diodes-zeners-0-5-w-dz050-2044.htm |
+| Pack de cables de connexions | 1 | http://www.gotronic.fr/art-pack-de-cables-de-connexion-12411.htm |
+| Chargeur | 1 | http://www.gotronic.fr/art-chargeur-minilader-3-vl6424-5720.htm |
+| L293D | 1 | http://www.gotronic.fr/art-l293d-14072.htm |
