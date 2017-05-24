@@ -14,6 +14,19 @@ Le projet se présente sous la forme d'un proof of concept.
 
 [Analyse fonctionnelle](#analyse-fonctionnelle)
 
+[Analyse mécanique](#analyse-mécanique)
+
+[Schéma Electronique](#schéma-electronique)
+
+[FAQ](#faq)
+
+[Liste des composants](#liste-des-composants)
+
+[Default d'un composant ?](#default-d'un-composant-?)
+
+[Annexes](#annexes)
+
+[Matériel fourni](#matériel-fourni)
 
 ## Sujet du projet ##
 Il s'agit d'un robot qui sera capable de ramasser des cylindres métalliques (canettes).
