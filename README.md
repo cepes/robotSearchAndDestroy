@@ -103,7 +103,13 @@ Du point de vue de la fonction principale 1. Il fallait un élément permettant 
 - Système de pelle. Le problème étant la complexité du système mécanique à mettre en place pour soulever l'objet afin de pouvoir faire levier.
 - Système magnétique. L'avantage de cette solution par rapport aux autres et de pouvoir être sur de n'attraper que des cylindres en métal.
 
-La solution de l'équipe fut l'utilisation d'un électro-aimant afin de ne pas avoir un aimant fonctionnant en continu et pouvant ainsi récuperé des éléments mécaniques de façon imprévu. 
+La solution de l'équipe fut l'utilisation d'un électro-aimant afin de ne pas avoir un aimant fonctionnant en continu et pouvant ainsi récuperé des éléments mécaniques de façon imprévu.
+
+Après différentes études l'équipe en est arrivé à la modélisation suivante:
+![Modelisation Chassis1](https://github.com/cepes/robotSearchAndDestroy/blob/master/RobotFinal1.PNG)
+![Modelisation Chassis2](https://raw.githubusercontent.com/cepes/robotSearchAndDestroy/master/robot%20final%202.PNG)
+![Modelisation Chassis3](https://raw.githubusercontent.com/cepes/robotSearchAndDestroy/master/Robot%20final%203.PNG)
+Ci-joint un [modele 3D](https://github.com/cepes/robotSearchAndDestroy/blob/master/Robot%20Final.123dx)
 
   ### Schéma Electronique ###
 
